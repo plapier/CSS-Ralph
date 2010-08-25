@@ -1,0 +1,325 @@
+/* Eric Meyer's Reset Reloaded */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div {
+  display:block;
+}
+#wrapper{
+  margin-top:100px;
+}
+#logo {
+  margin:0 auto;
+  width:500px;
+  height:500px;
+  overflow:hidden;
+  position:relative;
+}
+#logo div {
+  position:absolute;
+}
+.circle {
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border:0px solid #fff;
+  background:rgb(179,35,23);
+  height:500px;
+  width:500px;
+}
+.head {
+  width:118.468px;
+  height:82.604px;
+  background:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border:0px solid #fff;
+  top:123px;
+  left:195px;
+}
+.shoulders {
+  width:217.561px;
+  height:47.376px;
+  background:white;
+  -moz-border-radius: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border:0px solid #fff;
+  top:215px;
+  left:145px;
+}
+.leftarm {
+  width:36.274px;
+  height:70.986px;
+  background:white;
+  top:262px;
+  left:145px;
+}
+.rightarm {
+  width:36.274px;
+  height:70.986px;
+  background:white;
+  top:262px;
+  right:138px;
+}
+.lefteye {
+  width:26.239px;
+  height:26.261px;
+  background:rgb(179,35,23);
+  top:147px;
+  left:213px;
+  -moz-border-radius: 13.1px;
+  -webkit-border-radius: 13.1px;
+}
+.lefteye-inner {
+  height:13.436px;
+  width:13.458px;
+  top:147px;
+  left:213px;
+  background:white;
+  border:7.4px solid rgb(179,35,23);
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px; 
+}
+.righteye {
+  width:26.239px;
+  height:26.261px;
+  background:rgb(179,35,23);
+  top:147px;
+  right:208px;
+  -moz-border-radius: 13.1px;
+  -webkit-border-radius: 13.1px;
+}
+.righteye-inner {
+  height:13.436px;
+  width:13.458px;
+  top:147px;
+  right:208px;
+  background:white;
+  border:7.4px solid rgb(179,35,23);
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px; 
+}
+.body {
+  height:104.382px;
+  width:127.443px;
+  background:white;
+  top:262px;
+  left:190px;
+}
+.leftleg{
+  top:366px;
+  left:190px;
+  width:54.386px;
+  height:46.747px;
+  background:white;
+}
+.rightleg{
+  top:366px;
+  right:183px;
+  width:54.386px;
+  height:46.747px;
+  background:white;
+}
+.lefthand {
+  height:45.596px;
+  width:45.596px;
+  top:322px;
+  left:141.5px;
+  background:white;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px; 
+}
+.lefthand-inner {
+  height:27.741px;
+  width:27.741px;
+  left:150px;
+  top:332px;
+  background:rgb(179,35,23);
+  -moz-border-radius: 13.87px;
+  -webkit-border-radius: 13.87px;  
+}
+.righthand {
+  height:45.596px;
+  width:45.596px;
+  top:322px;
+  right:132.5px;
+  background:white;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px; 
+}
+.righthand-inner {
+  height:27.741px;
+  width:27.741px;
+  right:141px;
+  top:332px;
+  background:rgb(179,35,23);
+  -moz-border-radius: 13.87px;
+  -webkit-border-radius: 13.87px;  
+}
+.lefthand-tri{
+  border-color: transparent transparent rgb(179,35,23);
+  border-style: solid;
+  border-width: 0px 20px 20px;
+  height: 0px;
+  margin: 0px 10px;
+  width: 0px;
+  left:135px;
+  top:348px;
+}
+.righthand-tri{
+  border-color: transparent transparent rgb(179,35,23);
+  border-style: solid;
+  border-width: 0px 20px 20px;
+  height: 0px;
+  margin: 0px 10px;
+  width: 0px;
+  right:125px;
+  top:348px;
+}
+.leftfoot {
+  height:12.18px;
+  width:67.867px;
+  background:white;
+  top:412px;
+  left:183px;
+}
+.rightfoot {
+  height:12.18px;
+  width:67.867px;
+  background:white;
+  top:412px;
+  right:176.8px;
+}
+.curve1 {
+  background:rgb(206, 96, 74);
+  height:200px;
+  width:200px;
+  top:45px;
+  left:152.5px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;   
+}
+.curve1-inner {
+  background:rgb(179,35,23);
+  height:200px;
+  width:200px;
+  top:57px;
+  left:152.5px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;   
+}
+.curve2 {
+  background:rgb(227, 155, 134);
+  height:200px;
+  width:200px;
+  left:152.5px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px; 
+  top: 67px;
+}
+.curve2-inner {
+  background:rgb(179,35,23);
+  height:200px;
+  width:200px;
+  top:79px;
+  left:152.5px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;  
+}
+.curve3 {
+  background:white;
+  height:200px;
+  width:200px;
+  left:152.5px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px; 
+  top: 89px;
+}
+.curve3-inner {
+  background:rgb(179,35,23);
+  height:200px;
+  width:200px;
+  top:101px;
+  left:152.5px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;  
+}
+.left-tri{
+  border-color: transparent transparent rgb(179,35,23);
+  border-style: solid;
+  border-width: 0px 100px 100px;
+  height: 0px;
+  margin: 0px 10px;
+  width: 0px;
+  left:70px;
+  top:60px;
+  transform: rotate(9deg);
+  -webkit-transform: rotate(9deg);
+  -moz-transform: rotate(9deg);
+}
+.right-tri{
+  border-color: transparent transparent rgb(179,35,23);
+  border-style: solid;
+  border-width: 0px 100px 100px;
+  height: 0px;
+  margin: 0px 10px;
+  width: 0px;
+  right:62px;
+  top:60px;
+  transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+  -moz-transform: rotate(-9deg);
+}
+.leftblock {
+  height:50px;
+  width:50px;
+  top:150px;
+  left:130px;
+  background:rgb(179,35,23);
+}
+.rightblock{
+  height:50px;
+  width:50px;
+  top:150px;
+  right:120px;
+  background:rgb(179,35,23);
+}
